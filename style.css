@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    font-size: 22px;
+    background-color: gray;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 36px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.image-1 {
+    height: 100%;
+    width: 100%;
+}
+
+.section-1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.h1-1 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-2 {
+    height: 50%;
+    width: 50%;
+    border-radius: 25%;
+}
+.earlylife {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.Mixedmartialartscareer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-3 {
+    height: 25%;
+    width: 25%;
+    border-radius: 25%;    
+}
+
+.image-4 {
+    height: 33%;
+    width: 33%;
+    border-radius: 25%;
+}
+
+h1 {
+    font-family: "Crimson Text", serif;
+}
+
+h2 {
+    font-family: "Crimson Text", serif;
+}
+
+h3 {
+    font-family: "Crimson Text", serif;
+}
+h4 {
+    font-family: "Crimson Text", serif;
+}
+
+p {
+    font-family: "EB Garamond", serif;
+}
